@@ -1,19 +1,19 @@
 function exibirValorA() {
-    alert("O valor da variável a é " + a + " e seu tipo é " + typeof a);
+    alert(`O valor da variável a é ${a} e seu tipo é ${typeof a}`);
 }
 function alterarValorA() {
     var a = "João"; // Escopo de função
     alert(`Valor da variável a foi alterado localmente para ${a}`);
 }
 function exibirValorB() {
-    alert("O valor da variável b é " + b + " e seu tipo é " + typeof b);
+    alert(`O valor da variável b é ${b} e seu tipo é ${typeof b}`);
 }
 function alterarValorB() {
 	b = 30; // Alteração no escopo global
     alert(`Valor da variável b foi alterado globalmente para ${b}`);
 }
 function exibirValorC() {
-    alert("O valor da variável c é " + c + " e seu tipo é " + typeof c);
+    alert(`O valor da variável c é ${c} e seu tipo é ${typeof c}`);
 }
 function alterarValorC() {
 	const c = 10; // Redeclaração fora do escopo global
