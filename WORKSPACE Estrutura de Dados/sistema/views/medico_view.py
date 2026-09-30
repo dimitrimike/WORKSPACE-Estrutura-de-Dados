@@ -6,8 +6,3 @@ from django.http import HttpResponse
 def medico_view(request):
     print('Página medico funcionou')
     return HttpResponse('Página inicial do Médico')
-
-# View responsável pela tela home
-def home(request):
-    print('Página home funcionou')
-    return HttpResponse('Página HOME')
